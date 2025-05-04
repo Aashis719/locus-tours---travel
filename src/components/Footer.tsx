@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-orange-500">Locus</span> <span >Tours & Travels</span>
             </a>
             <p className="text-gray-400 mb-6">
-              {/* Curated, adventurous, and unforgettable travel experiences across the globe. */}
+            
               Your trusted partner for domestic and international travel
             </p>
             <div className="flex space-x-4">
@@ -98,11 +98,6 @@ const Footer = () => {
           <p className="text-gray-400 text-sm mb-4 md:mb-0 ">
             © {currentYear} Locus Tours and Travel. All rights reserved.
           </p>
-          {/* <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 text-sm hover:text-orange-500 transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-400 text-sm hover:text-orange-500 transition-colors">Terms of Service</a>
-            <a href="#" className="text-gray-400 text-sm hover:text-orange-500 transition-colors">Sitemap</a>
-          </div> */}
         </div>
       </div>
     </footer>

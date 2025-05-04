@@ -107,7 +107,7 @@ const AboutSection = () => {
                     text={`<div class="relative flex gap-6">
                       <div class="flex-none">
                         <div class="w-10 h-10 rounded-full border-4 border-orange-500 bg-white flex items-center justify-center z-10 relative">
-                          <Globe size={14} className="text-orange-500" />
+                        <div class="w-2 h-2 bg-orange-600/80  "> </div>  <Globe size={14} className="text-orange-500" />
                         </div>
                       </div>
                       <div class="flex-1">\

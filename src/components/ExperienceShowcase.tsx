@@ -1,6 +1,8 @@
 
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import AnimatedText from './ui/AnimatedText';
+import { Link } from 'react-router-dom';
+
 
 const experiences = [
   {
@@ -17,13 +19,7 @@ const experiences = [
     description: 'From the golden deserts of Dubai to the vibrant streets of Bangkok and futuristic Singapore — we make flying to your dream destinations effortless.',
     image: 'https://images.pexels.com/photos/3243025/pexels-photo-3243025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
-  {
-    id: 3,
-    title: 'Seamless Business Travel',
-    location: 'Worldwide',
-    description: 'Whether it’s a quick meeting or an important conference, our flight booking services ensure smooth, reliable, and stress-free business travel around the world.',
-    image: 'https://images.pexels.com/photos/7412001/pexels-photo-7412001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-  }
+  
 ];
 
 
@@ -80,11 +76,17 @@ const ExperienceShowcase = () => {
                     delay={index * 100 + 300}
                     threshold={0.2}
                   />
-                  <AnimatedText
-                    text='<a href="#" class="inline-flex items-center text-orange-500 font-medium hover:text-orange-600 transition-colors group ml-3 md:ml-0">Explore this journey <svg class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>'
-                    delay={index * 100 + 500}
-                    threshold={0.2}
-                  />
+               <Link
+                     to={experience.id === 1 ? "/discoverNepal" : (experience.id === 2 ? "/globalgates" : "/")}
+                     className="inline-flex items-center text-orange-500 font-medium hover:text-orange-600 transition-colors group ml-3 md:ml-0"
+                           aria-label={`Explore ${experience.title}`}>
+                      Explore this journey &nbsp;
+                <div>
+                     <svg width="20" height="18" viewBox="0 0 28 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 9H26M26 9L19 2M26 9L19 16" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+                     </svg>
+                </div>
+              </Link>
                 </div>
               </div>
             ))}

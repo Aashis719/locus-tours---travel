@@ -26,7 +26,7 @@ const Header = () => {
     { name: 'Destinations', href: '#experiences' },
     { name: 'Services', href: '#services' },
     { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+  
   
 
   ];
@@ -34,7 +34,6 @@ const Header = () => {
     { name: 'Home', href: '#hero' },
     { name: 'Destinations', href: '#experiences' },
     { name: 'Services', href: '#services' },
-    { name: 'Flight Booking', href: '#flights' },
     { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' },
   
@@ -43,19 +42,19 @@ const Header = () => {
 
   return (
     <header 
-    className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white md:bg-transparent  ${
-      isScrolled ? 'bg-white bg-opacity-90 shadow-sm backdrop-blur-sm py-2 md:py-4 md:bg-white' : 'bg-transparent  py-2 md:py-6'
+    className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95   ${
+      isScrolled ? 'bg-white bg-opacity-90 shadow-sm backdrop-blur-sm py-2 md:py-2 md:bg-white' : 'bg-transparent  py-2 md:py-2'
     }`} >
 
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <a href="#" className="text-2xl font-bold text-[#0C0C0C] md:ml-15">
-          {/* <span className="text-orange-500">Locus</span> Tours */}
-          <img src="/images/logo.png" alt="logo" width={80}/>
+         
+          <img src="/images/logo.png" alt="logo" width={90}/>
         </a>
         
         {/* Desktop Navigation */}
         <nav
-         className={`hidden md:flex items-center space-x-8 transition-all duration-300 ${isScrolled ? 'text-gray-800' : 'text-white'}`}
+         className={`hidden md:flex items-center space-x-8 transition-all duration-300 ${isScrolled ? 'text-gray-800' : 'text-gray-700'}`}
         
         >
           {navLinks.map((link) => (
@@ -68,7 +67,7 @@ const Header = () => {
             </a>
           ))}
           <a href="#contact" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full transition-colors">
-            Book Now
+            Contact Us
           </a>
         </nav>
         
@@ -84,7 +83,7 @@ const Header = () => {
       
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white bg-opacity-95 backdrop-blur-sm shadow-lg">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white/95 bg-opacity-95 backdrop-blur-sm shadow-lg">
           <nav className="container mx-auto px-4 pt-2 pb-6 flex flex-col space-y-4">
             {mnavLinks.map((link) => (
               <a 

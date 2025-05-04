@@ -13,15 +13,13 @@ const CtaSection = () => {
     // Send email using EmailJS
     emailjs
       .sendForm(
-        'service_1js4n1i', // Replace with your EmailJS Service ID
-        'template_dqtfgxc', // Replace with your EmailJS Template ID
+        'service_1js4n1i', 
+        'template_dqtfgxc',
         formRef.current!,
-        'Zpyv556tuOPUfuzDe' // Replace with your EmailJS Public Key
+        'Zpyv556tuOPUfuzDe'
       )
       .then(
         (result) => {
-          // console.log('Email sent successfully:', result.text);
-          // Show success toast
           toast.success('Message Sent successfully!✅', {
             position: 'top-right',
             autoClose: 3000,

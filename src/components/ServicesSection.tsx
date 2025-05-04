@@ -60,13 +60,13 @@ const ServicesSection = () => {
             text='<h2 class="text-4xl md:text-5xl font-bold mt-3 mb-6 text-[#0C0C0C]">Our <span class="text-orange-500">Services</span></h2>'
             delay={300}
           />
-          <AnimatedText 
+          {/* <AnimatedText 
             text='<p class="text-lg text-gray-600">From personalized itineraries to expertly guided adventures, we deliver travel experiences that exceed expectations.</p>'
             delay={500}
-          />
+          /> */}
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <AnimatedText 
               key={index}
@@ -78,20 +78,9 @@ const ServicesSection = () => {
               threshold={0.1}
             />
           ))}
-        </div>
-        
-        {/* <div className="mt-20 text-center">
-          <AnimatedText 
-            text='<a href="#contact" class="inline-flex items-center bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-              Explore All Services
-              <svg class="ml-2 w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M5 12h14"></path>
-                <path d="M12 5l7 7-7 7"></path>
-              </svg>
-            </a>'
-            delay={700}
-          />
         </div> */}
+        
+       
       </div>
     </section>
   );
