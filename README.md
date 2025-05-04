@@ -13,9 +13,6 @@ Locus Tours and Travel is a web application for users to inquire about travel ar
 ## Technologies Used
 
 * React
-<<<<<<< HEAD
 * Typescript
-=======
->>>>>>> e189a818f094d41009f5c7f2ebf8f3206cdbd977
 * Tailwind CSS
 * EmailJS Browser
