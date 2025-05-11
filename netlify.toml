@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/activities"
+  to = "/"
+  status = 302  # Use 302 (temporary redirect) or 301 (permanent redirect)
+  conditions = {device = ["phone", "tablet"]} #redirect only for phone and tablet
