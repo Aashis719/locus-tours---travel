@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import Destinations from "./components/Destinations"; // adjust path as needed
 import DiscoverNepal from "./components/DiscoverNepal";
 import GlobalGates from "./components/GlobalGates";
+import MobileRedirect from "./components/MobileRedirect";
 
 
 const queryClient = new QueryClient();
@@ -23,7 +24,7 @@ const App = () => (
           <Route path="/destinations" element={<Destinations />} />
           <Route path="/discovernepal" element={<DiscoverNepal />} />
          <Route path="/globalgates" element={<GlobalGates/>}/>
-
+         <Route path="/activities" element={<MobileRedirect/>}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
