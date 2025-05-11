@@ -192,7 +192,7 @@ const Hero = () => {
               <div className="relative">
                 <select
                   id="passengers"
-                  className="block w-full p-3 md:p-4 group text-white bg-transparent border border-white/30 rounded-md focus:outline-none focus:border-orange-500"
+                  className="block w-full p-3 md:p-4 group text-white bg-transparent border peer border-white/30 rounded-md focus:outline-none focus:border-orange-500"
                   value={passengers}
                   onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPassengers(Number(e.target.value))}
                 >
@@ -208,7 +208,7 @@ const Hero = () => {
                 </select>
                 <label
                   htmlFor="passengers"
-                  className="absolute text-sm md:text-base group-focus:text-orange-500 focus:text-orange-500 text-white/70 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0]   px-2 peer-focus:px-2 peer-focus:text-orange-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 transition-all"
+                  className="absolute text-sm md:text-base  focus:text-orange-500 text-white duration-300 transform -translate-y-4 scale-75 top-2  md:top-8 z-10 origin-[0]   px-2 peer-focus:px-2 peer-focus:text-orange-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 transition-all"
                 >
                   Passengers
                 </label>
@@ -226,7 +226,7 @@ const Hero = () => {
                 />
                 <label
                   htmlFor="departureDate"
-                  className="absolute text-sm md:text-base text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-transparent px-2 peer-focus:px-2 peer-focus:text-orange-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 transition-all"
+                  className="absolute text-sm md:text-base text-white duration-300 transform -translate-y-4 scale-75 top-2 md:top-8 z-10 origin-[0] bg-transparent px-2 peer-focus:px-2 peer-focus:text-orange-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 transition-all"
                 >
                   Departure Date
                 </label>
@@ -244,7 +244,7 @@ const Hero = () => {
                   />
                   <label
                     htmlFor="returnDate"
-                    className="absolute text-sm md:text-base text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-transparent px-2 peer-focus:px-2 peer-focus:text-orange-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 transition-all"
+                    className="absolute text-sm md:text-base text-white duration-300 transform -translate-y-4 scale-75 top-2 md:top-8 z-10 origin-[0] bg-transparent px-2 peer-focus:px-2 peer-focus:text-orange-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 transition-all"
                   >
                     Return Date
                   </label>
