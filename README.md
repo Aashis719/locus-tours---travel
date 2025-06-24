@@ -4,6 +4,9 @@
 
 Locus Tours and Travel is a web application for users to inquire about travel arrangements. It provides a simple interface for submitting travel preferences.
 
+![Locus Tours and Travel Landing Page](/images/locus-landing.png)
+
+
 ## Key Features
 
 * User-friendly form to input travel details.
