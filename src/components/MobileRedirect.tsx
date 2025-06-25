@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const MobileRedirect = () => {
-  const navigate = useNavigate(); // Changed:  useNavigate for React Router
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     // Redirect from /activities to / on all devices
