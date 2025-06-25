@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import AnimatedText from './ui/AnimatedText';
 import { Link } from 'react-router-dom';
-
+// Import the AnimatedText component for text animations
 
 const experiences = [
   {
