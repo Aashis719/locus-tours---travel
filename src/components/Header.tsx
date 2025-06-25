@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
-
+// import './Header.css'; // Import CSS for header styles
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
