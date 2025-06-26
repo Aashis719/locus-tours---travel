@@ -1,7 +1,7 @@
 import * as React from "react"
 
 const MOBILE_BREAKPOINT = 768
-
+// This is a common breakpoint for mobile devices, adjust as needed
 export function useIsMobile() {
   const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)
 
