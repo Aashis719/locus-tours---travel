@@ -3,7 +3,7 @@ import AnimatedText from './ui/AnimatedText';
 import { Mail, Phone, Send } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import { toast, ToastContainer } from 'react-toastify';
-
+// Ensure you have emailjs installed: npm install @emailjs/browser
 const CtaSection = () => {
   const formRef = useRef<HTMLFormElement>(null);
 
