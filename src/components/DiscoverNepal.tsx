@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Destinations.css';
 import EnquiryForm from './EnquiryForm'; 
 import ModalDestinations from './Destination/ModalDestinations'; 
-// Import the new modal component
+
 interface Flight {
   city: string;
   country: string;
