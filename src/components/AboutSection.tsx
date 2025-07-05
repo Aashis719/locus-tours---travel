@@ -2,7 +2,7 @@
 import React from 'react';
 import AnimatedText from './ui/AnimatedText';
 import { Globe } from 'lucide-react';
-// Ensure you have lucide-react installed: npm install lucide-react
+
 const AboutSection = () => {
   const milestones = [
     {
