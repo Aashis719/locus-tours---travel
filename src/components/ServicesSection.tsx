@@ -1,7 +1,7 @@
 
 import React from 'react';
 import AnimatedText from './ui/AnimatedText';
-// Ensure you have lucide-react installed: npm install lucide-react
+
 const services = [
   {
     icon: (
