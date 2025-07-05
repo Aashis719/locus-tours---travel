@@ -1,4 +1,4 @@
-
+//  // Ensure you have lucide-react installed: npm install lucide-react --- IGNORE ---
 import React from 'react';
 import AnimatedText from './ui/AnimatedText';
 
