@@ -10,7 +10,6 @@ import CtaSection from '../components/CtaSection';
 import Footer from '../components/Footer';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import FlightBookingSection from '@/components/FlightBookingSection';
-// import ServicesSection from '../components/ServicesSection'; // Uncomment if you want to use the ServicesSection
 const Index = () => {
   return (
     <div className="min-h-screen ">
