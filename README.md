@@ -17,4 +17,4 @@ Locus Tours and Travel is a web application for a Travel Brand where users can i
 * React
 * Typescript
 * Tailwind CSS
-* EmailJS Browser
+* EmailJS Browser 
