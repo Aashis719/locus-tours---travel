@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 import AnimatedText from './ui/AnimatedText';
 import { Link } from "react-router-dom";
-
+//
 const FlightBookingSection = () => {
   return (
     <div className="bg-gray-50 pb-12 pt-20  md:pt-40 " id='services'>
