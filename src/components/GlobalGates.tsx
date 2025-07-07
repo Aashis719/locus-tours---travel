@@ -11,7 +11,7 @@ interface Flight {
   price: number;
   details: string[];
 }
-// Define the Flight interface to represent each destination
+
 const GlobalDestinations: Flight[] = [
   {
     city: 'New York',
