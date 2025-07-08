@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
-
+// Importing the necessary libraries and styles
 interface ModalDestinationsProps {
   isOpen: boolean;
   onClose: () => void;
