@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import AnimatedText from './ui/AnimatedText';
 const testimonials = [ 
-  {
+  { 
     id: 1,
     quote: "When we had an emergency and needed to change our flight dates overseas, Locus Tours was incredibly responsive and helpful. Their quick action and professionalism were truly appreciated. We'll definitely book with them again.",
     author: "Suresh Bhattarai",
