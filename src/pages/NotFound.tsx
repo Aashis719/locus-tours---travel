@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 // Ensure you have the necessary packages installed: npm install react-router-dom
 const NotFound = () => {
-  const location = useLocation();
+  const location = useLocation(); 
 
   useEffect(() => {
     console.error(
