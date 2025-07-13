@@ -11,7 +11,7 @@ interface Flight {
   price: number;
   details: string[];
 }
-// Sample data for foreign destinations
+// Sample data for foreign destinations 
 const foreignDestinationsData: Flight[] = [
   {
     city: 'New York',
