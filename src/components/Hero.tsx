@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 import { Link } from "react-router-dom";
-// import { ArrowRight } from 'lucide-react'; // Uncomment if you want to use the arrow icon
+// import { ArrowRight } from 'lucide-react'; // Uncomment if  you want to use the arrow icon
 const Hero = () => {
   const [loaded, setLoaded] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
