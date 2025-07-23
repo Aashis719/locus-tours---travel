@@ -243,6 +243,6 @@ const EnquiryForm: React.FC<EnquiryFormProps> = () => {
       <ToastContainer />
     </div>
   );
-};
+}; 
 
 export default EnquiryForm;
