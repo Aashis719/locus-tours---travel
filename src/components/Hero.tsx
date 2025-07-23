@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 // import { ArrowRight } from 'lucide-react'; // Uncomment if  you want to use the arrow icon
 const Hero = () => {
   const [loaded, setLoaded] = useState(false);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0); 
   const [tripType, setTripType] = useState('one-way'); // Default to 'one-way'
   const [departure, setDeparture] = useState('');
   const [arrival, setArrival] = useState('');
