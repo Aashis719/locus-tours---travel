@@ -244,5 +244,5 @@ const EnquiryForm: React.FC<EnquiryFormProps> = () => {
     </div>
   );
 }; 
- 
+  
 export default EnquiryForm;
